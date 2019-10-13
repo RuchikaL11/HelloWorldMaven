@@ -21,10 +21,12 @@
          <url>file:///var/lib/jenkins/myartifacts/</url>
        </repository>
    </distributionManagement>
+  <repositories>
   <repository>
     <id>nexus-snapshot</id>
     <url>http://52.15.49.50:8081/repository/maven-snapshots/</url>
   </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
