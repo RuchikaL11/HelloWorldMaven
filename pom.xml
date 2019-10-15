@@ -15,12 +15,12 @@
   </properties>
   
 <distributionManagement>
-       <repository>
+  <repositories>     
+  <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myartifacts/</url>
   </repository>
-  <repositories>
   <repository>
     <id>nexus-snapshot</id>
     <url>http://3.19.241.37:8081/repository/maven-snapshots/</url>
