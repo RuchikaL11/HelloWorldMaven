@@ -13,14 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-<distributionManagement>
-       <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/myartifacts/</url>
-       </repository>
-   </distributionManagement>
   <repositories>
   <repository>
     <id>nexus-snapshot</id>
